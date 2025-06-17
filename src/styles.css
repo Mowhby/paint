@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 150px;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.canvas {
+  flex: 1;
+  position: relative;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.shape-counter {
+  width: 150px;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  margin-left: 5px;
+}
